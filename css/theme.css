@@ -1,0 +1,16 @@
+.light {
+  --text: #161313;
+  --background: #f2eded;
+  --primary: #d74437;
+  --secondary: #d09590;
+  --accent: #b04036;
+}
+
+.dark {
+  --text: #ece9e9;
+  --background: #120d0d;
+  --primary: #c83528;
+  --secondary: #6f342f;
+  --accent: #c95a4f;
+}
+
