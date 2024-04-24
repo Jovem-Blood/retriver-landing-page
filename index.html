@@ -19,17 +19,18 @@
 
 <body class="light">
 	<nav class="navbar">
-		<span>
-			<img src="" alt="logo da empresa">
-		</span>
-		<div>
+		<a class="nav-logo" href="#banner">
+			<img src="/assets/logo.webp"
+				alt="uma simples inlustração de um cachorro de pelos dourados com a língua para fora">
+		</a>
+		<div class="mobile-toggle-button">
 			<button onclick="toggleMobileNav()">
 				<span class="iconify" data-icon="mdi-hamburger-menu"></span>
 			</button>
 		</div>
 		<ul class="nav-links">
 			<li>
-				<a href="#">Sobre</a>
+				<a href="#fot">Sobre</a>
 			</li>
 			<li>
 				<a href="#">Serviços</a>
@@ -38,10 +39,15 @@
 				<a href="#">Produtos</a>
 			</li>
 		</ul>
+
 		<div class="mobile-navigation-links" id="mobile-nav">
-			<span>
-				<img src="" alt="logo da empresa">
-			</span>
+			<button onclick="toggleMobileNav()">
+				<span class="iconify" data-icon="mdi-close"></span>
+			</button>
+			<a href="#banner">
+				<img class="logo-mobile-image" src="/assets/mobile-logo.webp"
+				alt="uma simples inlustração de um cachorro de pelos dourados com a língua para fora">
+			</a>
 			<ul class="mobile-links">
 				<li>
 					<a href="#">Sobre</a>
@@ -56,14 +62,20 @@
 		</div>
 	</nav>
 
-	<main>
-		<section>
-
+	<main style="height:400vh;">
+		<section id="banner">
+			<div class="banner-container">
+				<div class="container-info">
+					<h1 class="container-info__title">São Retriver</h1>
+					<h2 class="container-info__subtitle">
+						<span class="text-p">Veterinária</span> & PetShop
+					</h2>
+					<p class="container-info__description">Cuidamos do seu pet da melhor forma possível!</p>
+				</div>
+			</div>
 		</section>
 
-
-		<section>
-
+		<section id="about">
 			<article>
 
 				<aside>
@@ -74,8 +86,8 @@
 
 	</main>
 
-	<footer>
-
+	<footer id="fot">
+		<h1>I'm The footer</h1>
 	</footer>
 </body>
 <script src="js/main.js"></script>
