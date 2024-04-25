@@ -283,10 +283,14 @@ footer#contact {
 	}
 
 	footer#contact {
-		padding: 0 1rem 0 1rem;
+		padding: 0 1rem 1rem 1rem;
 		display: flex;
 		flex-direction: column;
 		gap: 1rem 0;
+	}
+
+	.socials ul {
+		margin: 0;
 	}
 }
 
