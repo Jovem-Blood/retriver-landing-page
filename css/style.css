@@ -105,7 +105,7 @@ section#banner {
 
 .banner-container {
 	flex: 1;
-	background-image: url('/assets/banner.jpg');
+	background-image: url('../assets/banner.jpg');
 	background-size: cover;
 	background-position: center 80%;
 	padding: 20% 4% 20% 4%;
@@ -134,7 +134,7 @@ section#banner {
 section#about {
 	padding-top: 2rem;
 	padding: 2rem 6% 0px 6%;
-	background-image: url('/assets/sec-banner.png');
+	background-image: url('../assets/sec-banner.png');
 	background-size: cover;
 	background-position: center 80%;
 	background-color: var(--background);
