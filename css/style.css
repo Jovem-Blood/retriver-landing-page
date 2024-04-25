@@ -194,7 +194,7 @@ section#services {
 }
 
 .service-icon {
-	font-size: 120px !important;
+	font-size: 6rem !important;
 	margin-right: 1rem;
 }
 
@@ -309,6 +309,10 @@ footer#contact {
 
 	.container-info__description {
 		opacity: 0;
+	}
+
+	.service-info {
+		max-width: 100%;
 	}
 
 	section#about {
